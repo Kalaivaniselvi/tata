@@ -1,0 +1,831 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header{
+    background-color: black;
+    height: 30px;
+    border-bottom: 3px solid red;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+}
+#head{
+    height: 30px;
+    display: grid;
+    grid-template-columns: 170px 100px 120px 160px 120px 120px 350px ;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+}
+#head1{
+    display: grid;
+    grid-template-columns: 150px 50px 70px 80px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 1150px;
+    margin-top: -23px;
+}
+#list li{
+    list-style-type: none;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: -60px;
+    font-weight: bold;
+}
+#list2{
+    border-top: 2px solid black;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+#sub{
+    border: 1px solid black;
+    height: 65spx;
+    width: 250px;
+    margin-left: -170px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px;
+}
+#sub li{
+    list-style-type: none;
+    padding: 5px;
+}
+#main:hover #sub{
+    display: block;
+}
+#sub{
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+#head2{
+    height: 50px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: white;
+}
+.fa-location-dot{
+    margin-left: -20px;
+}
+#head2 input{
+    background-color:whitesmoke;
+    border-radius: 3px;
+}
+.fa-magnifying-glass{
+    margin-left: -30px;
+}
+#head2 p{
+    margin-left: 1100px;
+    margin-top: -25px;
+}
+#head3{
+    display: grid;
+    grid-template-columns: 200px 180px 100px 200px 150px 170px 170px 100px 100px 80px;
+    text-align: center;
+    height: 35px;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    background-color: white;
+}
+#head div:hover{
+    color:orangered;
+    cursor: hand;
+}
+#health1 {
+    background-color: white;
+    height: 80px;
+    width: 200px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+#health li{ 
+    list-style-type: none;
+    padding: 5px;
+}
+#health li:hover{
+    color: orangered;
+}
+#protein{
+    margin-left: 210px;
+    width: 200px;
+    margin-top: -375px;
+    list-style-type: none;
+    text-align: left;
+    border-left: 1px solid gray;
+    padding-left: 10px;
+}
+#vitamin{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 170px;
+    list-style-type: none;
+    text-align:left;
+}
+#protein li{
+   line-height: 25px;
+}
+#vitamin li{
+    line-height: 25px;
+}
+#category {
+      list-style-type: none;
+      margin-left: 395px;
+      margin-top: -400px;
+      width: 250px;
+      border-left: 1px solid gray;
+}
+#category li{
+    list-style-type: none;
+    text-align: left;
+    line-height: 24px;
+}
+#protein li:hover{
+    color: orangered;
+    cursor: hand;
+}
+#hover1:hover  #header1{
+    display: block;
+}
+#header1{
+    display: none;
+    height: 400px;
+    background-color: white;
+    border-radius: 7px;
+    width: 600px;
+}
+#top h2{
+    position: absolute;
+    z-index: -4;
+}
+#health1{
+    display: none;
+}
+#health:hover #health1{
+    display: block;
+}
+#vitamin li:hover{
+    color: orangered;
+}
+#protein li:hover{
+    color: orangered;
+}
+#category li:hover{
+    color:orangered;
+
+}
+#dia2{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 20px;
+    width: 300px;
+    line-height: 25px;
+    height: 260px;
+    background-color: white;
+    border-radius: 7px;
+    width: 250px;
+     display: none;
+}
+#dia:hover #dia2{
+    display: block;
+}
+#dia2 li{
+    padding-left: 5px;
+}
+#dia2 li:hover{
+    color: orangered;
+    cursor: hand;
+}
+#care1{
+    height: 550px;
+    background-color: white;
+    border-radius: 7px;
+    width: 600px;
+    margin-left: -200px;
+}
+#care{
+    margin-left: 100px;
+}
+#care1 li{
+    padding: 5px;
+}
+#care li{
+    text-align: left;
+    margin-left: -100px;
+}
+#plain {
+    margin-left: 200px;
+    margin-top: -450px;
+}
+#plain li{
+    text-align: left;
+    width: 200px;
+    border-left: 1px solid grey;
+}
+#gloves{
+    margin-left: 400px;
+    margin-top: -540px;
+    width: 150px;
+}
+#gloves li{
+    text-align: left;
+    border-left: 1px solid gray;
+}
+#gloves li:hover{
+    color: orangered;
+}
+#health:hover #care1{
+    display: block;
+}
+#care1{
+    display: none;
+}
+
+#personal:hover #personal1{
+    display: block;
+}
+#top{
+    margin-top: 250px;
+    color: gray;
+    height: 60px;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+}
+#top h2{
+    margin-left: 380px;
+}
+#homeo:hover{
+    color: orangered;
+}
+#condition:hover{
+    color: orangered;
+}
+#ayurveda:hover{
+    color: orangered;
+}
+#covid:hover{
+    color: orangered;
+}
+#featured:hover{
+    color: orangered;
+}
+#top2{
+    height: 250px;
+    background-color:whitesmoke;
+    border: 2px solid grey;
+    position: absolute;
+    z-index: -4;
+    width: 100%;
+}
+#top2 img{
+    width:1200px;
+    height:130px ;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#top2 p{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#p1{
+    list-style-type: none;
+    width: 150px;
+}
+#personal1{
+    background-color: white;
+    border-radius: 6px;
+    width: 700px;
+    height: 400px;
+    margin-top: 5px;
+}
+#personal li{
+    list-style-type: none;
+    padding: 4px;
+}
+#p2{
+    margin-left: 160px;
+    margin-top: -370px;
+    border-left: 1px solid gray;
+}
+#p3{
+    margin-left: 330px;
+    border-left: 1px solid gray;
+    margin-top: -315px;
+}
+#p1 li{
+    text-align: left;
+    padding-left: 10px;
+}
+#p2 li{
+    text-align: left;
+
+}
+#p3 li{
+        text-align: left;
+}
+#p4 li{
+    text-align: left;
+}
+#p4{
+    margin-left: 490px;
+    border-left: 1px solid gray;
+    margin-top: -372px;
+}
+#personal1{
+    display: none;
+}
+#p1 li:hover{
+    color: orangered;
+}
+#p2 li:hover{
+    color: orangered;
+}
+#p3 li:hover{
+    color: orangered;
+}
+#p4 li:hover{
+    color: orangered;
+}
+body{
+    background-color: whitesmoke;
+}
+
+#scroll{
+    display:flex ;
+    margin-top: 250px;
+    height: 250px;
+    padding: 30px;
+    overflow: hidden;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    0%{margin-left: -50px;}
+    20%{margin-left: -100px;} 
+    40%{margin-left: -200px;}
+    80%{margin-left: -800px;}
+    100%{margin-left: -1000px;}
+}
+#scroll2{
+    width: 100%;
+    height: 450px;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns:250px 250px 250px 250px 250px 250px;
+    text-align: center;
+}
+#scroll2 img{
+    width: 200px;
+    height: 270px;
+    padding: 10px;
+    border-radius: 6px;
+}
+#scroll2 p1{
+    color: green;
+}
+#sale p{
+    height: 20px;
+    width: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    font-style: italic;
+    font-size: 15px;
+}
+#sale{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+    margin-top: -90px;
+    margin-left: 50px;
+}
+#sale1 img{
+    height: 150px;
+    width:150px ;
+    padding: 10px;
+}
+#sale1{
+    display: flex;
+    margin-top: 15px;
+    border: 1px solid gray;
+    height: 180px;
+}
+#s10{
+    display: grid;
+    grid-template-columns:215px 215px 215px 215px 215px 215px 215px ;
+    margin-top: 40px;
+    border: 1px solid gray;
+    padding: 15px;
+    height: 400px;
+    text-align: center;
+}
+#s10 img{
+    width: 150px;
+    height: 190px;
+}
+#s10 p1{
+    color:green;
+}
+#s10 p{
+    padding: 20px;
+}
+#w p{
+
+    height: 20px;
+    width: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: -380px;
+}
+#w{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 300px;
+}
+#f1 p1{
+    font-weight: bold;
+}
+#f1{
+    border: 1px solid gray;
+    margin-top: 50px; 
+    background:linear-gradient(skyblue,white,yellow);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#f1 p {
+    margin-left: 50px;
+    font-size: 17px;
+}
+#f1 p1 {
+    margin-left: 50px;
+    font-size: 25px;
+}
+#f2{
+    height: 160px;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-bottom: 1px solid gray;
+    
+}
+#f2 h2{
+     text-align: center;
+}
+#f3{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#f4{
+    margin-left: 530px;
+    margin-top: -50px;
+}
+#f5{
+    margin-left:900px ;
+    margin-top: -52px;
+}
+#f2 h3{
+    font-size: 30px;
+}
+#f2 p{
+    font-size: 20px;
+}
+#f6{
+    margin-top:30px ;
+    display: flex;
+    margin-left: 300px;
+}
+#f6 p{
+    font-size: 30px;
+}
+#f6 input{
+    margin-left: 80px;
+}
+#f6 p1{
+    margin-left: 50px;
+}
+#f7{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    margin-top: 90px;
+    border-top: 1px solid grey;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    background-color:whitesmoke;
+}
+#f7 li{
+    list-style-type: none;
+}
+#f11{
+    margin-left: 980px;
+    width: 250px;
+    margin-top: -165px;
+}
+#f12{
+    margin-left: 860px;
+    width: 180px;
+    margin-top: -165px;
+}
+#f8{
+    margin-left: 80px;
+}
+#f13{
+    display: flex;
+    margin-top: 30px;
+}
+#f14{
+    margin-left: 600px;
+    width: 100px;
+    height: 100px;
+}
+#f15{
+    width: 100px;
+    height: 100px;
+}
+#f13 p{
+    margin-top: 180px;
+    margin-left: -390px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#flex2{
+    height: 170px;
+    overflow:scroll;
+    overflow-x: hidden;
+    width: 200px;
+}
+#flex3{
+    height: 170px;
+    overflow:scroll;
+    overflow-x: hidden;
+    width: 200px;
+}
+#column-flex li{
+    padding: 5px;
+}
+#column-flex{
+    margin-left: 150px;
+}
+#flex1{
+    list-style-type: none;
+}
+#column-flex{
+    position: absolute;
+    z-index: -5;
+    margin-top: 60px;
+    width: 230px;
+    background-color:whitesmoke;
+    box-shadow: 2px 2px 2px 2px;
+}
+#flex4{
+    height: 170px;
+    overflow:scroll;
+    overflow-x: hidden;
+    width: 200px;
+}
+#images2{
+    display: grid;
+    grid-template-columns: 325px 325px 325px;
+    margin-left: 500px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: -5;
+    text-align: center;
+    position: relative;
+}
+#m11{
+    height: 350px;
+    width: 350px;
+}
+#m14{
+    height: 350px;
+    width: 350px;
+}
+#m17{
+    height: 350px;
+    width: 350px;
+}
+#m20{
+    height: 350px;
+    width: 350px;
+}
+#m24{
+    height: 350px;
+    width: 350px;
+}
+#m28{
+     height: 350px;
+    width: 350px;
+}
+#m32{
+     height: 350px;
+    width: 350px;
+}
+#m45{
+     height: 350px;
+    width: 350px;
+}
+#m45{
+     height: 350px;
+    width: 350px;
+}
+#m48{
+     height: 350px;
+    width: 350px;
+}
+#m51{
+     height: 350px;
+    width: 350px;
+}
+#m54{
+     height: 350px;
+    width: 350px;
+}
+#m57{
+     height: 350px;
+    width: 350px;
+}
+#m60{
+     height: 350px;
+    width: 350px;
+}
+#m63{
+     height: 350px;
+    width: 350px;
+}
+#m66{
+     height: 350px;
+    width: 350px;
+}
+#m69{
+     height: 350px;
+    width: 350px;
+}
+#m72{
+     height: 350px;
+    width: 350px;
+}
+#m64 img{ 
+    width: 150px;
+    height: 150px;
+}
+#m66 img{ 
+    width: 150px;
+    height: 150px;
+}
+#m67 img{
+    width: 150px;
+    height: 150px;
+}
+#m68 img{
+    width: 150px;
+    height: 150px;
+}
+#m69 img{
+    width: 150px;
+    height: 150px;
+}
+#m70 img{
+    width: 150px;
+    height: 150px;
+}
+#m71 img{
+    width: 150px;
+    height: 150px;
+}
+#m72 img{
+    width: 150px;
+    height: 150px;
+}
+#m28 img{
+    width: 150px;
+    height: 150px;
+}
+#images2 div{
+    width: 300px;
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+#images2 p{
+    padding: 10px;
+}
+#images2 p1{
+    background-color: green;
+    height: 70px;
+    width: 90px;
+    margin-top: -50px;
+    border-radius: 4px;
+    color: white;
+    font-style: italic;
+}
+#images2{
+    background-color: whitesmoke;
+    box-shadow: 1px 3px 3px 1px;
+}
+a{
+    text-decoration: none;
+}
+#login{
+    background-color:whitesmoke;
+    height: 470px;
+    width: 800px;
+    margin-left: 370px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px;
+}
+#login2{
+    margin-left: 400px;
+    margin-top: -200px;
+    border-radius: 10px;
+}
+#doctor{
+    margin-top: 50px;
+    text-align: center;
+}
+#d1{
+    display: flex;
+    margin-left: 420px;
+    margin-top: 20px;
+}
+#d1 p{
+    margin-top: 20px;
+}
+#doctor h1{
+    font-size: 40px;
+    color: gray;
+}
+#doctor h2{
+    font-size: 40px;
+    color: gray;
+}
+#doctor p1{
+    background-color: orangered;
+   color: aliceblue;
+   font-size: 25px;
+   padding: 10px;
+   margin-left: 250px;
+}
+#doctor p1:hover{
+    background-color:aliceblue;
+   color:orangered;
+}
+
+#consult_box{
+    border: 2px solid black;
+    margin-top: 50px;
+    width: 85%;
+    height: 200px;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 400px 500px 400px;
+    text-align: center;
+    padding: 20px;
+}
+#consult_box h1{
+    font-size: 50px;
+    color: orangered;
+}
+#consult_box p{
+    font-size: 25px;
+}
+#consult_box1{
+    margin-left: 100px;
+}
+#consult_box2{
+    border-left: 1px solid black;
+}
+#consult_box3{
+    border-left: 1px solid black;
+}
+#happy{
+    text-align: center;
+    margin-top: 30px;
+}
+#happy h2{
+    font-size: 35px;
+}
+#happy p{
+    font-size: 18px;
+}
+#confidence{
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 100px;
+    height: 300px;
+}

@@ -1,0 +1,11 @@
+#tata{
+    background-color: aqua;
+    height:300px ;
+    width:100%;
+}
+body{
+    background-color: aqua;
+}
+@media (min-width: 768px) {
+    body {background-color: rgb(211, 13, 13);}
+  }
